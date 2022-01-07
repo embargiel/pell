@@ -1,13 +1,16 @@
 {
-  "name": "pell",
+  "name": "@embargiel/pell",
   "description": "pell - the simplest and smallest WYSIWYG text editor for web, with no dependencies",
   "author": "Jared Reich",
-  "version": "1.0.6",
+  "contributors": [
+    "Marcin Bargiel"
+  ],
+  "version": "1.0.7",
   "main": "./dist/pell.min.js",
   "scripts": {
     "dev": "gulp",
     "build": "gulp clean && gulp script && gulp style",
-    "lint": "./node_modules/.bin/eslint .js ./"
+    "lint": "eslint .js ./"
   },
   "repository": {
     "type": "git",
@@ -41,5 +44,8 @@
     "rollup-plugin-babel": "2.7.1",
     "rollup-plugin-uglify": "2.0.1",
     "run-sequence": "1.2.2"
+  },
+  "directories": {
+    "example": "examples"
   }
 }
