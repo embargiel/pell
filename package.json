@@ -1,5 +1,5 @@
 {
-  "name": "@embargiel/pell",
+  "name": "@marcin.k.bargiel/pell",
   "description": "pell - the simplest and smallest WYSIWYG text editor for web, with no dependencies",
   "author": "Jared Reich",
   "contributors": [
@@ -47,5 +47,6 @@
   },
   "directories": {
     "example": "examples"
-  }
+  },
+  "dependencies": {}
 }
